@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+<<<<<<< HEAD
+=======
+
+# VS specific
+*.vs
+>>>>>>> master

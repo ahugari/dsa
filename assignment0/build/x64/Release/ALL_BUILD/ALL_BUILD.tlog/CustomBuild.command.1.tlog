@@ -1,0 +1,10 @@
+^C:\DSA\ASSIGNMENTS\ASSIGNMENT0\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/DSA/assignments/assignment0 -BC:/DSA/assignments/assignment0/build --check-stamp-file C:/DSA/assignments/assignment0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

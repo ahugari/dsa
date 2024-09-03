@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/DSA/assignments/assignment1/src/miraguha/CMakeLists.txt
+  exampleApplication.cpp
+C:\DSA\assignments\assignment1\src\miraguha\exampleApplication.cpp(109,8): warning C4101: 'locations': unreferenced local variable
+  exampleImplementation.cpp
+  Generating Code...
+  miraguha.vcxproj -> C:\DSA\assignments\assignment1\build\Debug\miraguha.exe
