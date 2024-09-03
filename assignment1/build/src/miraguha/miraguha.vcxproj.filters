@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\DSA\assignments\assignment1\src\miraguha\exampleApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DSA\assignments\assignment1\src\miraguha\exampleImplementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\DSA\assignments\assignment1\src\miraguha\example.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\miraguha\exampleApplication.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\DSA\assignments\assignment1\src\miraguha\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FCB88480-14A4-3873-8581-8463F4AB6CCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7FC58D63-B6E9-34F8-A5A0-A96790042DA5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
