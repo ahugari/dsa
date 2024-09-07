@@ -119,6 +119,7 @@
     <Link>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>libc%3Blibcmt.lib%3Blibcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImportLibrary>C:/DSA/assignments/assignment1/build/Debug/miraguha.lib</ImportLibrary>
@@ -165,6 +166,7 @@
     <Link>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>libc%3Blibcmt.lib%3Blibcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImportLibrary>C:/DSA/assignments/assignment1/build/Release/miraguha.lib</ImportLibrary>
@@ -211,6 +213,7 @@
     <Link>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>libc%3Blibcmt.lib%3Blibcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImportLibrary>C:/DSA/assignments/assignment1/build/MinSizeRel/miraguha.lib</ImportLibrary>
@@ -256,6 +259,7 @@
     <Link>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>libc%3Blibcmt.lib%3Blibcmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
       <ImportLibrary>C:/DSA/assignments/assignment1/build/RelWithDebInfo/miraguha.lib</ImportLibrary>
@@ -324,10 +328,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\DSA\assignments\assignment1\src\miraguha\exampleApplication.cpp" />
-    <ClCompile Include="C:\DSA\assignments\assignment1\src\miraguha\exampleImplementation.cpp" />
-    <ClInclude Include="..\..\..\src\miraguha\exampleApplication.h" />
-    <ClInclude Include="C:\DSA\assignments\assignment1\src\miraguha\example.h" />
+    <ClCompile Include="..\..\..\src\miraguha\locationsCleanerApplication.cpp" />
+    <ClCompile Include="..\..\..\src\miraguha\locationsCleanerImplementation.cpp" />
+    <ClInclude Include="..\..\..\src\miraguha\locationsCleaner.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\DSA\assignments\assignment1\build\ZERO_CHECK.vcxproj">

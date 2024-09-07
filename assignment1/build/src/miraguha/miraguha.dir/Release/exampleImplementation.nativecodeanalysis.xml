@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\DSA\assignments\assignment1\src\miraguha\</FILEPATH>
+      <FILENAME>exampleImplementation.cpp</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Return value ignored: 'getchar'.</DESCRIPTION>
+    <FUNCTION>prompt_and_exit</FUNCTION>
+    <DECORATED>?prompt_and_exit@@YAXH@Z</DECORATED>
+    <FUNCLINE>45</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
