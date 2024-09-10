@@ -1,18 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\DSA\assignments\assignment1\src\miraguha\exampleApplication.cpp">
+    <ClCompile Include="C:\DSA\assignments\assignment1\src\miraguha\locationsCleanerApplication.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\DSA\assignments\assignment1\src\miraguha\exampleImplementation.cpp">
+    <ClCompile Include="C:\DSA\assignments\assignment1\src\miraguha\locationsCleanerImplementation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\DSA\assignments\assignment1\src\miraguha\example.h">
+    <ClInclude Include="C:\DSA\assignments\assignment1\src\miraguha\locationsCleaner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\src\miraguha\exampleApplication.h" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\DSA\assignments\assignment1\src\miraguha\CMakeLists.txt" />
