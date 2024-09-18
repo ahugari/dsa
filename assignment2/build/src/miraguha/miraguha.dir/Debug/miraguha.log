@@ -1,0 +1,41 @@
+﻿  Building Custom Rule C:/DSA/assignments/assignment2/src/miraguha/CMakeLists.txt
+  locationsSorterApplication.cpp
+  locationsSorterImplementation.cpp
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(207,5): error C3861: 'merge_sort': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(285,5): error C3861: 'merge': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(290,5): error C2065: 'queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(290,11): error C2146: syntax error: missing ';' before identifier 'left_queue'
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(290,11): error C2065: 'left_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(291,5): error C2065: 'queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(291,11): error C2146: syntax error: missing ';' before identifier 'right_queue'
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(291,11): error C2065: 'right_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(294,17): error C2065: 'left_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(294,9): error C3861: 'enqueue': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(297,17): error C2065: 'right_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(297,9): error C3861: 'enqueue': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(302,22): error C2065: 'left_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(302,13): error C3861: 'is_empty': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(302,47): error C2065: 'right_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(302,38): error C3861: 'is_empty': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(303,18): error C2065: 'left_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(303,13): error C3861: 'peek': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(303,38): error C2065: 'right_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(303,33): error C3861: 'peek': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(304,28): error C2065: 'left_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(304,20): error C3861: 'dequeue': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(307,17): error C2065: 'right_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(307,12): error C3861: 'peek': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(307,37): error C2065: 'left_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(307,32): error C3861: 'peek': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(308,28): error C2065: 'right_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(308,20): error C3861: 'dequeue': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(312,22): error C2065: 'left_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(312,13): error C3861: 'is_empty': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(313,24): error C2065: 'left_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(313,16): error C3861: 'dequeue': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(316,22): error C2065: 'right_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(316,13): error C3861: 'is_empty': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(317,24): error C2065: 'right_queue': undeclared identifier
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(317,16): error C3861: 'dequeue': identifier not found
+C:\DSA\assignments\assignment2\src\miraguha\locationsSorterApplication.cpp(363,16): warning C4091: 'typedef ': ignored on left of 'queue' when no variable is declared
+  Generating Code...

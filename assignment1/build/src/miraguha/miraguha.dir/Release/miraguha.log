@@ -1,6 +1,9 @@
 ﻿  locationsCleanerApplication.cpp
+<<<<<<< HEAD
   locationsCleanerImplementation.cpp
   Generating Code...
 C:\DSA\assignments\assignment1\src\miraguha\locationsCleanerApplication.cpp(213,56): warning C4244: 'argument': conversion from 'float' to 'short', possible loss of data
 C:\DSA\assignments\assignment1\src\miraguha\locationsCleanerApplication.cpp(213,53): warning C4244: 'argument': conversion from 'float' to 'short', possible loss of data
+=======
+>>>>>>> master
   miraguha.vcxproj -> C:\DSA\assignments\assignment1\build\Release\miraguha.exe
