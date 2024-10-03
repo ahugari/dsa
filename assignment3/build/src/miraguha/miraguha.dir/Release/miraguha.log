@@ -1,0 +1,6 @@
+﻿  trafficSimulatorApplication.cpp
+C:\DSA\assignments\assignment3\src\miraguha\trafficSimulatorApplication.cpp(213,9): warning C4101: 'number_of_test_cases': unreferenced local variable
+C:\DSA\assignments\assignment3\src\miraguha\trafficSimulatorApplication.cpp(203,13): warning C4101: 'key': unreferenced local variable
+C:\DSA\assignments\assignment3\src\miraguha\trafficSimulatorApplication.cpp(218,1): warning C4700: uninitialized local variable 'read_result' used
+C:\DSA\assignments\assignment3\src\miraguha\trafficSimulatorApplication.cpp(243,1): warning C4700: uninitialized local variable 'arrival_rate_input' used
+  miraguha.vcxproj -> C:\DSA\assignments\assignment3\build\Release\miraguha.exe

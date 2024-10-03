@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\DSA\assignments\assignment3\src\miraguha\trafficSimulatorApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\DSA\assignments\assignment3\src\miraguha\trafficSimulatorImplementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\DSA\assignments\assignment3\src\miraguha\trafficSimulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\DSA\assignments\assignment3\src\miraguha\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6DAE9AD6-4BBD-3C02-8180-349EDA12430E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B8C8CDF1-DA07-373F-8F70-F69D944BE72F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,11 @@
+﻿  trafficSimulatorApplication.cpp
+C:\DSA\assignments\assignment3\src\miraguha\trafficSimulator.h(58,16): warning C4091: 'typedef ': ignored on left of 'car' when no variable is declared
+  (compiling source file '../../../src/miraguha/trafficSimulatorApplication.cpp')
+  
+C:\DSA\assignments\assignment3\src\miraguha\trafficSimulator.h(62,16): warning C4091: 'typedef ': ignored on left of 'queuenode' when no variable is declared
+  (compiling source file '../../../src/miraguha/trafficSimulatorApplication.cpp')
+  
+C:\DSA\assignments\assignment3\src\miraguha\trafficSimulator.h(66,16): warning C4091: 'typedef ': ignored on left of 'queue' when no variable is declared
+  (compiling source file '../../../src/miraguha/trafficSimulatorApplication.cpp')
+  
+  miraguha.vcxproj -> C:\DSA\assignments\assignment3\build\Debug\miraguha.exe
